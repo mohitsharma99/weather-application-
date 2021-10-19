@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+    <title>page not found</title>
+    <link rel="shortcut icon" href="images/about.png" type="image/png">
+</head>
+<body>
+    {{>navbar}}
+
+
+    <!----- main header  ------>
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-8 col-12 mx-auto">
+                <div class="row">
+
+                    <!----- left side div ----->
+                    <div class="col-md-10 col-12 main_header_right align-items-center">
+                        <figure class="errimg">
+                            <img src="images/404.png" alt="self" class="img-fluid">
+                        </figure>
+
+                         <h2>Welcome to weather application</h2>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>back to home</button></a>
+                    </div>
+                    
+
+                    <!----- right side div ----->
+                  
+                       
+                        
+                   
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!------footer code  ------>
+
+    {{>footer}}
+</body>
+</html>
